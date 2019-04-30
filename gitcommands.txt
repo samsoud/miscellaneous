@@ -1,0 +1,685 @@
+git config --global --list
+1- Create a repo at git hub 
+2- copy the url of the repo
+3- on your pc cd to to your folder
+4- type git init
+5- git add  "your file"
+6- git commit -m "first commit"
+7- git remote add origin https://github.com/samsoud/testrepo.git\
+8- git push -u origin master
+
+
+
+git branch <branch>
+git branch -d the_local_branch
+git remote -v
+git pull origin master
+git fetch -p   ( sync)
+git branch -a
+
+
+ git config --global user.email "sam.soud@gmail.com"
+	CREATE REPSITRY IN HGI
+	git init
+ 	git add ansible.cfg 
+	git commit -m "fansible test"
+	git remote add origin https://github.com/samsoud/testrepo03.git
+g	it push -u origin master
+ 
+
+   40   git remote add origin https://github.com/samsoud/testrepo03.git
+   41  ls
+   42  git add ansible.cfg 
+   43  git commit -m "first commit"
+   44  git remote add origin https://github.com/samsoud/testrepo03.git
+   45  git push -u origin master
+
+  git config --lis
+
+
+   58  cd testrepo
+   59  git init
+   61  git add Ubintossh.ps1
+   62  git commit -m "Ubintossh.ps1 test"
+
+   64  ls testrepo2
+   66  cd testrepo2
+   72  git add ARMtemplates-master1
+   76  git rm --cached ARMtemplates-master1
+   77  vi .gitmodules
+   78  git config --remove-section submodule."ARMtemplates-master1"
+  git add ARMtemplates-master1/
+     git remove ARMtemplates-master1/
+   git ignore ARMtemplates-master1/
+  git rm ARMtemplates-master1/
+git rm ARMtemplates-master1/-r
+    git rm ARMtemplates-master1  -r
+   git add ARMtemplates-master1/
+   git commit -m "first commit"
+   89  git remote add origin https://github.com/samsoud/testrepo.git
+   90  git push origin master
+
+   95  git remote add origin https://github.com/samsoud/testrepo.git/
+   96  git commit -m "first commit"
+   97  git push -u origin master
+   98  git remote add origin https://github.com/samsoud/testrepo2.git
+   99  git init
+  100  git add ARMtemplates-master1/
+  101  git commit -m "first commit"
+  102  git remote add origin https://github.com/samsoud/testrepo2.git
+  103  git push -u origin master
+  104  git remote add origin https://github.com/samsoud/testrepo.git
+  105  git remote rm origin
+  106  git remote rm upstream
+  107  git push -u origin master --force
+  108  git remote add origin https://github.com/samsoud/testrepo.git
+  109  git push -u origin master --force
+  110  history
+  111  git remote add origin https://github.com/samsoud/testrepo03.git
+  112  git remote set-url origin https://github.com/samsoud/testrepo03.git
+  113   git remote add origin https://github.com/samsoud/testrepo03.git
+  114  git remote rm origin
+  115  git remote -v
+  116  git remote rm -testrepo
+  117  git remote remove https://github.com/samsoud/-testrepo.git
+  118  git remote rm "-testrepo"
+  119  git remote -v
+  120  git remote -v
+  121  git config
+  122  git config
+  123  git config --global --list
+  124  git config --global --list
+  125  git config --list
+  126  git config --global --unset-all
+  127  git config --global --list
+  128  git config --global --unset-all user.name
+  129  git config --global --unset-all github.user
+  130  git config --global --add user.name samsoud
+  131  git config --global --add github.user samsoud
+  132   git config --global --list
+  133   git config --global --list
+  134  history
+  135   git remote remove https://github.com/samsoud/-testrepo.git
+  136   git remote add origin https://github.com/samsoud/testrepo4.git
+  137   git remote remove https://github.com/samsoud/testrepo4.git
+  138  git config --global --list
+  139  ls
+  140  cd..
+  141  ls
+  142  cd ..
+  143  ls
+  144   cd testrepo2
+  145  ls
+  146   git init
+  147  ls
+  148  git add  "ARMtemplates-master1"
+  149  git commit -m "adding first commit"
+  150  git add -m "adding first commit"
+  151  git add "adding first commit"
+  152  git add  ARMtemplates-master1/
+  153  git commit -m "add  ARMtemplates-master1/"
+  154  git remote add origin "https://github.com/samsoud/testrepo2.git"
+  155* 
+  156  git remote add origin "https://github.com/samsoud/testrepo09.git"
+  157  git rm  ARMtemplates-master1/
+  158  git rm  ARMtemplates-master1/ -t
+  159  git rm  ARMtemplates-master1/ -r -f
+  160  git remote -v
+  161  git remote add origin "https://github.com/samsoud/testrepo04.git"
+  162  git remote add origin "https://github.com/samsoud/testrepo07.git"
+  163  git pull origin master
+  164  clear
+  165  git config --global --list
+  166  git remote
+  167  git remote -v
+  168  cd grit
+  169  git remote add pb https://github.com/samsoud/testrepo2.git
+  170  git remote -v
+  171   git fetch pb
+  172   git fetch origin
+  173   git fetch pb
+  174  git remote add origin https://github.com/samsoud/testrepo2.git
+  175  git push -u origin master
+  176  https://github.com/samsoud/testrepo4.git (fetch)
+  177  git remote add origin https://github.com/samsoud/testrepo2.git
+  178  git remote set-url origin https://github.com/samsoud/testrepo2.git
+  179  git remote remove origin
+  180  git remote rm origin
+  181  git remote remove origin
+  182  git push -u origin master
+  183  git remote remove origin
+  184  it remote remove origin
+  185  git remote add origin https://github.com/samsoud/testrepo2.git
+  186  git push -u origin master
+  187  git push -u origin master
+  188   git remote -v
+  189  git remote rm 
+  190  git remote rm 
+  191  https://github.com/samsoud/testrepo2.gitgit remote rm
+  192  git remote rm https://github.com/samsoud/testrepo2.git
+  193  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  194  $ git config --global --list
+  195  user.email=sam.soud@gmail.com
+  196  user.name=samsoud
+  197  credential.https://github.com.username=samsoud
+  198  credential.helper=wincred
+  199  winupdater.recentlyseenversion=2.21.0.windows.1
+  200  github.user=samsoud
+  201  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  202  $ git remote
+  203  origin
+  204  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  205  $ git remote -v
+  206  origin  https://github.com/samsoud/testrepo4.git (fetch)
+  207  origin  https://github.com/samsoud/testrepo4.git (push)
+  208  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  209  $ cd grit
+  210  bash: cd: grit: No such file or directory
+  211  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  212  $ git remote add pb https://github.com/samsoud/testrepo2.git
+  213  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  214  $ git remote -v
+  215  origin  https://github.com/samsoud/testrepo4.git (fetch)
+  216  origin  https://github.com/samsoud/testrepo4.git (push)
+  217  pb      https://github.com/samsoud/testrepo2.git (fetch)
+  218  pb      https://github.com/samsoud/testrepo2.git (push)
+  219  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  220  $  git fetch pb
+  221  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  222  $  git fetch origin
+  223  remote: Repository not found.
+  224  fatal: repository 'https://github.com/samsoud/testrepo4.git/' not found
+  225  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  226  $  git fetch pb
+  227  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  228  $ git remote add origin https://github.com/samsoud/testrepo2.git
+  229  fatal: remote origin already exists.
+  230  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  231  $ git push -u origin master
+  232  remote: Repository not found.
+  233  fatal: repository 'https://github.com/samsoud/testrepo4.git/' not found
+  234  michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+  235  $ https://github.com/samsoud/testrepo4.git (fetch)
+  236  bash: syntax error near unexpected token `fetch'
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote add origin https://github.com/samsoud/testrepo2.git
+fatal: remote origin already exists.
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote set-url origin https://github.com/samsoud/testrepo2.git
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote remove origin
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote rm origin
+fatal: No such remote: 'origin'
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote remove origin
+fatal: No such remote: 'origin'
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote remove origin
+fatal: No such remote: 'origin'
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ it remote remove origin
+bash: it: command not found
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote add origin https://github.com/samsoud/testrepo2.git
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/samsoud/testrepo2.git/' not found
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git push -u origin master
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (34/34), 27.93 KiB | 621.00 KiB/s, done.
+Total 34 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/samsoud/testrepo2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$  git remote -v
+origin  https://github.com/samsoud/testrepo2.git (fetch)
+origin  https://github.com/samsoud/testrepo2.git (push)
+pb      https://github.com/samsoud/testrepo2.git (fetch)
+pb      https://github.com/samsoud/testrepo2.git (push)
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote rm
+usage: git remote remove <name>
+
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote rm
+usage: git remote remove <name>
+
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ https://github.com/samsoud/testrepo2.gitgit remote rm
+bash: https://github.com/samsoud/testrepo2.gitgit: No such file or directory
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$ git remote rm https://github.com/samsoud/testrepo2.git
+fatal: No such remote: 'https://github.com/samsoud/testrepo2.git'
+
+michael@LAPTOP-LBTOQRDN MINGW64 ~/testrepo/testrepo2 (master)
+$
+  237  git remote -v
+  238  git remote rm https://github.com/samsoud/testrepo2.git
+  239  git remote -v
+  240  git remote set-url origin https://github.com/samsoud/testrepo2.git 
+  241  git remote rm https://github.com/samsoud/testrepo2.git
+  242  git remote 
+  243  git remote rm pb
+  244  git remote 
+  245  git remote rm origin
+  246  git remote
+  247   git remote -v
+  248   git remote 
+  249  git remote add origin 'https://github.com/samsoud/testrepo2.git'
+  250  git remote add pb 'https://github.com/samsoud/testrepo2.git'
+  251   git remote 
+  252  ls
+  253  git init
+  254  git add ARMtemplates-master1/
+  255  git commit
+  256  git init
+  257  ls
+  258  git add ARMtemplates-master1/
+  259  git commit
+  260  git remote add origin https://github.com/samsoud/repo01.git
+  261  git push -u origin master
+  262  git remote -v
+  263  git remote rm https://github.com/samsoud/testrepo2.git
+  264  history >>history
+  265  pwd
+  266  git remote set-url origin  https://github.com/samsoud/repo01.git
+  267  git remote add origin https://github.com/samsoud/repo01.git
+  268  git push -u origin master
+  269  git init
+  270  git add ARMtemplates-master1/
+  271  git commit
+  272  git remote set-url origin  https://github.com/samsoud/repo02.git
+  273  git remote add origin https://github.com/samsoud/repo02.git
+  274  git push -u origin master
+  275  git remote -v
+  276  git config --global --list
+  277  git remote
+  278  git remote -v
+  279  git remote remove origin
+  280  git remote add origin https://github.com/samsoud/repo02.git
+  281  git remote 
+  282  git remote remove origin
+  283  git remote add origin https://github.com/samsoud/repo02.git
+  284  git remote remove pb
+  285  git remote add bb https://github.com/samsoud/repo02.git
+  286  git remote -v
+  287  git remote 
+  288  git fetch origin
+  289  git fetch pb
+  290  git remote add bb https://github.com/samsoud/repo02.git
+  291  git remote -v
+  292  git fetch pb
+  293  git fetch origin
+  294  git remote -v
+  295  git remote 
+  296  git remote add bb https://github.com/samsoud/repo01.git
+  297  git remote -v
+  298  git rm
+  299  git rm  ARMtemplates-master1/ -r -f
+  300  git rm
+  301  git rm  ARMtemplates-master1/ -r -f
+  302  git rm  ARMtemplates-master1/ -t
+  303  git checkout -b Branch1
+  304  git checkout Branch1
+  305  git branch Branch1
+  306  ls
+  307  cd ..
+  308  ls
+  309  git checkout Branch1
+  310  git checkout Branch1
+  311  git branch Branch1
+  312  git checkout Branch1
+  313  ls
+  314  git add testrepo/
+  315  git commit
+  316  git comit "initial commit"
+  317  git commit -a -m 'added a new footer"
+
+  318  git commit -a -m 'added a new footer'
+  319  git branch
+  320  git push origin master
+  321  git remote set-url origin  https://github.com/samsoud/repo02.git
+  322  git remote add origin https://github.com/samsoud/repo02.git
+  323  git push origin master
+  324  mkdir netauto
+  325  cd netauto
+  326  git init
+  327  vi s1
+  328  git add s1
+  329  git commit -m "create  s1"
+  330  cp s1 s2
+  331  git add s2
+  332  git commit -m "create  s2"
+  333  git log
+  334  git status
+  335  ls
+  336  pwd
+  337  ls
+  338  git status
+  339  git log
+  340  git log --all --decorate --graph
+  341  git log --all --decorate --oneline --graph
+  342  alias graph="git log --all --decorate --oneline --graph"
+  343  history
+  344  graph
+  345  git branch "SDN"
+  346  git branch "auth"
+  347  git branch
+  348  graph
+  349  ls
+  350  git checkout SDN
+  351  graph
+  352  git status
+  353  vi s1
+  354  vi s1
+  355  git add s1 ;git commit -m "SDN for s1"
+  356  graph
+  357  cat s1
+  358  git checkout 'auth'
+  359  git branch
+  360  graph
+  361  cat s1
+  362  git checkout SDN
+  363  cat s1
+  364  git checkout 'auth'
+  365  vi s1
+  366  git status
+  367  git commit -a -m "auth for s1"
+  368  graph
+  369  echo "fast forward merge"
+  370  echo "fast forward merge with SDN"
+  371  git status
+  372  git checkout master
+  373  git diff maste..SDN
+  374  git diff master..SDN
+  375  git merge SDN
+  376  cat s1
+  377  graph
+  378* echo "deleting branch SDN
+  379  git branch --merge
+  380  git branch-d SDN
+  381  git branch -d SDN
+  382  git branch -d auth
+  383  echo "error: The branch 'auth' is not fully merged."
+  384  echo "three way merge for auth indirect path"
+  385  echo "merging ath into master"
+  386  git status
+  387  git merge auth
+  388  git fetch origin
+  389  git fetch master
+  390  git pull origin master
+  391  git pull origin master
+  392  graph
+  393  git status
+  394  git merge auth
+  395  git branche
+  396  git branch
+  397  git status
+  398  git config merge.tool vimdiff
+  399  git config merge.conflictstyle diff3
+  400  git config mergetool.prompt false
+  401  git mergetool
+  402  git merge auth
+  403  git commit -a -m " s1 conflict"
+  404  git merge auth
+  405  ls
+  406  vi s1
+  407  vi s1.orig
+  408  graph
+  409  git branch --merge
+  410  git branch -d auth
+  411  GIT CHECKOUT -B DEV
+  412  git checkout -b dev
+  413  vi s1
+  414  vi s1
+  415  git diff
+  416  git commit -a -m "update s1 vlans"
+  417  git checkout master
+  418  vi s1
+  419  history > history.txt
+  
+   420  git commit -a -m "update s1 frommaster branch"
+  421  graph
+  422  git status
+  423  pwd
+  424  git log --all --decorate --oneline --graph
+  425  git status
+  426  del s1.orig
+  427  rm s1.orig
+  428   git status
+  429  git merge dev
+  430  git merge --abort
+  431  graph
+  432  git add s1
+  433  git status
+  434  git branch -d dev
+  435  echo " detached head state"
+  436  git log
+  437  git checkout 8e3ca1b
+  438  echo " git checkout the commit hash 8e3ca1b"
+  439  git checkout 8e3ca1b
+  440  graph
+  441  git checkout master
+  442  graph
+  443  echo"now we nolonger have detaached head"
+  444  echo "now we nolonger have detaached head"
+  445  clean
+  446  clear
+  447  git checkout 8e3ca1b
+  448  graph
+  449  git branch stage
+  450  graph
+  451  git checkout stage
+  452  graph
+  453  git stash
+  454  git checkout master
+  455  git stash
+  456  vi s1
+  457  git status
+  458  git checkout stage
+  459  git stash
+  460  git status
+  461  vi s1
+  462  git stash
+  463  git stash lis
+  464  git checkout 8e3ca1b
+  465  git stash list
+  466  git stash list -p
+  467  git stash apply
+  468  git diff
+  469  git commit
+  470  git commit -a -m"remove auth"
+  471  git stash list
+  472  git stash apply
+  473  git stash apply stash@{1}
+  474  git diff
+  475  history
+  476  git clone https://github.com/samsoud/netauto.git
+  477  git remote
+  478  git remote add origin https://github.com/samsoud/netauto.git
+  479  git remote
+  480  git remote -v
+  481  echo alias
+  482  echo $alias
+  483  graph
+  484  alias graph
+  485  history
+  486  git remote -v
+  487  git clone https://github.com/samsoud/netauto.git
+  488  ls
+  489  cd netauto
+  490  ls
+  491  git remote
+  492  git remote -v
+  493  graph
+  494  git checkout  origin/master
+  495  git checkout master
+  496  vi s1
+  497  cd ..
+  498  cd ..
+  499  ls
+  500  cd testrepo2
+  501  ls
+  502  cd ..
+  503  cdls
+  504  ls
+  505  cd ..
+  506  ls
+  507  pwd
+  508  ls
+  509  ls ne*
+  510  ls
+  511  pwd
+  512  cd testpro
+  513  pwd
+  514  cd testrepo
+  515  cd netauto
+  516  ls
+  517  cd netauto
+  518  ls
+  519  rm s2
+  520  ls
+  521  git fitch
+  522  git fetch
+  523  git remote add origin https://github.com/samsoud/netauto.git
+  524  git add *
+  525  git commit -m "s1 upload"
+  526  git commit -m "first commit"
+  527  git remote add origin https://github.com/samsoud/netauto.git
+  528  git push origin master
+  529  git push origin master
+  530  git status
+  531  graph
+  532  git fetch orgin
+  533  git fetch origin
+  534  git status
+  535  graph
+  536  git merge
+  537  git merge origin/master
+  538  ls
+  539  graph
+  540  git pull
+  541  vi s1
+  542  git commit -s -m"new mgmtIPfor S1"
+  543  graph
+  544  git status
+  545  git push original/master
+  546  git push -u origin master
+  547  git status
+  548  git add s1
+  549  git push -u origin master
+  550  git status
+  551  graph
+  552  ps auxwww
+  553  who|wc -l
+  554  wc
+  555  wc -l
+  556  ls
+  557  wc -l README.md
+  558  wc -c README.md
+  559  wc -m README.md
+  560  wc -L README.md
+  561  wc -w README.md
+  562  cat README.md
+  563  git config --global --list
+  564  git clone https://github.com/samsoud/netauto.git
+  565  ls
+  566  cd netauto
+  567  git rempte
+  568  git remote
+  569  git remote -v
+  570  graph
+  571  git checkout 'origin/master'
+  572  git checkout origin/master
+  573  git checkout master
+  574  git status
+  575  graph
+  576  git fetch origin
+  577  git status
+  578  git merge orgin\master
+  579  git merge orgin/master
+  580  graph
+  581  ls
+  582  git pull
+  583  echo "git pull is equalto to get fetsth/merge"
+  584  vi s1
+  585  git commit -a -m "new managment ip for s1"
+  586  graph
+  587  git status
+  588  git push origin/master
+  589  git status
+  590  git push orgin master
+  591  git push origin master
+  592  graph
+  593  echo " create github fork"
+  594  graph
+  595  git fetch upstream
+  596  pwd
+  597  ls
+  598  git clone https://github.com/abbasssoud/netauto.git
+  599  ls
+  600  cd cdnetauto/
+  601  cd cdnetauto
+  602  ls
+  603  cd netauto
+  604  ls
+  605  cd ..
+  606  git checkout netauto
+  607  cd netauto/
+  608  ls
+  609  cd ..
+  610  ls
+  611  git push origin netauto
+  612  git remote
+  613  git remote add upstream https://github.com/abbasssoud/netauto.git
+  614  git push origin netauto
+  615  git push origin netauto
+  616  git push origin netauto
+  617  git push origin master
+  618  ls
+  619  git add netauto
+  620  git commit -m "first commit"
+  621  remote add origin https://github.com/samsoud/netauto
+  622  remote add origin https://github.com/abbasssoud/netauto.git
+  623  git remote add origin https://github.com/abbasssoud/netauto.git
+  624  git push origin master
+  625  graph
+  626  get-apt asnsible
+  627  git-apt asnsible
+  628  apt-git ansible
+  629  apt-get ansible
+  630  apt-get ansible
+  631  wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.4_amd64.deb
+  632  history
+
