@@ -1,13 +1,21 @@
-﻿function Get-AzureSASTokenDynamicsChinaBlobs {
+﻿  # Set target variables
+    $subscriptionName = 'GUIDES-F-DEV'
+    $resourceGroupName = 'ggcrmbincne'
+    $storAcctName = 'teststor43899009'
+    $blobContainerName = 'blobContainerName234'
+	SubscriptionName='Pay-as-you-go'
+	$username="sam.soud@gmail.com"
+	Login-AzureRmAccount -SubscriptionName $SubscriptionName
+	Get-AzureRmSubscription -SubscriptionName $SubscriptionName | Select-AzureRmSubscription
+	Select-AzureRmSubscription -SubscriptionName $SubscriptionName | Set-AzureRmContext
+
+
+function Get-AzureSASTokenDynamicsChinaBlobs {
 
     [CmdletBinding()]
     param()
 
-    # Set target variables
-    $subscriptionName = 'GUIDES-F-DEV'
-    $resourceGroupName = 'ggcrmbincne'
-    $storAcctName = 'ggcrmbincnebinarystor'
-    $blobContainerName = 'crmbinaries'
+  
 
     Write-Verbose "ASM - Checking credentials and setting subscription to: $subscriptionName"
     try {

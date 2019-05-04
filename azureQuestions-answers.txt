@@ -1,0 +1,270 @@
+miisclient.exe 
+#################################
+Azure Storage includes these data services:
+
+Azure Blobs: A massively scalable object store for text and binary data.
+Azure Files: Managed file shares for cloud or on-premises deployments.
+Azure Queues: A messaging store for reliable messaging between application components.
+Azure Tables: A NoSQL store for schemaless storage of structured data.
+Each service is accessed through a storage account. To get started, see Create a storage account.
+Azure Storage also includes managed and unmanaged disk
+###############################
+
+#git checkout -b Branch1
+
+git init
+git add ansible.cfg 
+git commit -a -m 'added a new footer [issue 5302]'
+git remote add origin https://github.com/samsoud/testrepo03.git
+git push -u origin master
+git status
+################################
+Git status
+#Create new branch 
+git checkout -b Branch1
+git checkout Branch1
+git checkout -b Branch1
+git add newFile
+git commit -a -m 'added a new footer [issue 5302]'
+git push origin master
+git checkout master
+git merge Branch1
+git status
+#all the change are on the forked branch 
+#
+# git Create pull request
+
+Now you have to create a pull request 
+# After pull Request is done go to the other user (originator)
+# Choose with repo you want to mereg into then 
+
+if you happy with the change then you can merge
+#######################################
+
+git status
+git mergetool
+git status
+git push origin iss53
+#################################
+
+Azure Application proxy tomigrate Web Apps 
+#################################
+PDC Emulator (One per domain)
+RID Master (One per domain)
+Schema Master (One per forest)
+Domain Naming Master (One per forest)
+Infrastructure Master (One per domain)
+Domain DNS Zone Master role (one per domain)
+Forest DNS Zone Master role (one per forest)
+
+##################################################
+
+
+3. What are the different cloud deployment models?
+Explanation: Following are the three cloud deployment models:
+
+Public Cloud: The infrastructure is owned by your cloud provider and the server that you are using could be a multi-tenant system.
+
+Private Cloud: The infrastructure is owned by you or your cloud provider gives you that service exclusively. For eg: Hosting your website on your servers, or hosting your website with the cloud provider on a dedicated server.
+
+Hybrid Cloud: When you use both Public Cloud, Private Cloud together, it is called Hybrid Cloud. For Example: Using your in-house servers for confidential data, and the public cloud for hosting your company’s public facing website. This type of setup would be a hybrid cloud.
+#######################################################
+
+8. What are Roles and why do we use them?
+Explanation: Roles are nothing servers in layman terms. These servers are managed, load balanced, Platform as a Service virtual machines that work together to achieve a common goal.
+
+There are 3 types of roles in Microsoft Azure:
+
+Web Role
+Worker Role
+VM  Role
+Let’s discuss each of these roles in detail:
+
+Web Role – A web role is basically used to deploy a website, using languages supported by the IIS platform like, PHP, .NET etc. It is configured and customized to run web applications.
+Worker Role – A worker role is more like an help to the Web role, it used to execute background processes unlike the Web Role which is used to deploy the website.
+
+VM Role – The VM role is used by a user to schedule tasks and other windows services. This role can be used to customize the machines on which the web and worker role is running.
+
+####################################################
+
+11. What are virtual machine scale sets in Azure?
+Explanation: Virtual machine scale sets are Azure compute resource that you can use to deploy and manage a set of identical VMs. 
+With all the VMs configured the same, scale sets are designed to support true autoscale, and no pre-provisioning of VMs is required. 
+So it’s easier to build large-scale services that target big compute, big data, and containerized workloads.
+
+####################################################
+
+12. Are data disks supported within scale sets?
+Explanation: Yes. A scale set can define an attached data disk configuration that applies to all VMs in the set. 
+Other options for storing data include:
+
+Azure files (SMB shared drives)
+OS drive:
+Temp drive (local, not backed by Azure Storage)
+Azure data service (for example, Azure tables, Azure blobs)
+External data service (for example, remote database)
+
+####################################################
+
+14. What are Fault Domains?
+Explanation: A fault domain is a logical group of underlying hardware that share a common power source and network switch, 
+similar to a rack within an on-premise data-centers. As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these fault domains. 
+This approach limits the impact of potential physical hardware failures, network outages, or power interruptions.
+####################################################
+15. What are Update Domains?
+Explanation: An update domain is a logical group of underlying hardware that can undergo maintenance or can be rebooted at the same time. 
+As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these update domains. 
+This approach ensures that at least one instance of your application always remains running as the Azure platform undergoes periodic maintenance. 
+The order of update domains being rebooted may not proceed sequentially during planned maintenance, but only one update domain is rebooted at a time.
+####################################################
+
+Top 50 Azure Interview Questions You Must Prepare In 2018
+ Recommended by 12 users
+
+
+
+
+Section 1: General Cloud Questions
+
+Section 2: Basic Azure Questions
+
+Section 3: Azure Interview Questions
+
+Section 1: General Cloud Questions
+
+1. What are the different types of services offered in the cloud?
+IAAS VS PAAS VS SAAS
+IAAS	PAAS	SAAS
+In infrastructure as a service, you get the raw hardware from your cloud provider as a service i.e you get a server which you can configure with your own will.	
+Platform as a Service, gives you a platform to publish without giving the access to the underlying software or OS. 	
+You get software as a service in Azure, i.e no infrastructure, no platform, simple software that you can use without purchasing it.
+For Example: Azure VM, Amazon EC2.	
+For example: Web Apps, Mobile Apps in Azure.	For example: when you launch a VM on Azure, you are not buying the OS, you are basically renting it for the time you will be running that instance.
+
+2. What is cloud computing?
+Explanation: It is the use of servers on the internet to “store”, “manage” and “process” data. 
+The difference is, instead of using your own servers, you are using someone else’s servers to do your task, paying them for the amount of time you use it for.
+
+3. What are the different cloud deployment models?
+Explanation: Following are the three cloud deployment models:
+
+Public Cloud: The infrastructure is owned by your cloud provider and the server that you are using could be a multi-tenant system.
+
+Private Cloud: The infrastructure is owned by you or your cloud provider gives you that service exclusively. For eg: Hosting your website on your servers, or hosting your website with the cloud provider on a dedicated server.
+
+Hybrid Cloud: When you use both Public Cloud, Private Cloud together, it is called Hybrid Cloud. For Example: Using your in-house servers for confidential data, and the public cloud for hosting your company’s public facing website. This type of setup would be a hybrid cloud.
+
+4. I have some private servers on my premises, also I have distributed some of my workload on the public cloud, 
+what is this architecture called?
+Virtual Private Network
+Private Cloud
+Virtual Private Cloud
+Hybrid Cloud
+Answer: D. Hybrid Cloud
+
+Explanation: This type of architecture would be a hybrid cloud. Why? Because we are using both, the public cloud, and on premises servers i.e the private cloud. To make this hybrid architecture easy to use, wouldn’t it be better if your private and public cloud were all on the same network (virtually). This is established by including your public cloud servers in a virtual private cloud, and connecting virtual cloud with your on premise servers using a VPN (Virtual Private Network).
+
+Apart from this Azure Interview Questions Blog, if you want to get trained from professionals on this technology, you can opt for a structured training from edureka! Click below to know more.
+
+Learn Azure From Professionals
+
+
+
+6. Which service in Azure is used to manage resources in Azure?
+Application Insights
+Azure Resource Manager
+Azure Portal
+Log Analytics
+Answer: B Azure Resource Manager
+
+Explanation: Azure Resource Manager is used to “manage” infrastructures which involve a no. of azure services. It can be used to deploy, manage and delete all the resources together using a simple JSON script.
+
+7. Which of the following web applications can be deployed with Azure?
+ASP.NET
+PHP
+WCF
+All of the mentioned
+Answer: D All of the mentioned
+
+Explanation: Microsoft also has released SDKs for both Java and Ruby to allow applications written in those languages to place calls to the Azure Service Platform API to the AppFabric Service.
+
+Section 3: Azure Interview Questions
+8. What are Roles and why do we use them?
+Explanation: Roles are nothing servers in layman terms. These servers are managed, load balanced, Platform as a Service virtual machines that work together to achieve a common goal.
+
+There are 3 types of roles in Microsoft Azure:
+
+Web Role
+Worker Role
+VM  Role
+Let’s discuss each of these roles in detail:
+
+Web Role – A web role is basically used to deploy a website, using languages supported by the IIS platform like, PHP, .NET etc. It is configured and customized to run web applications.
+Worker Role – A worker role is more like an help to the Web role, it used to execute background processes unlike the Web Role which is used to deploy the website.
+VM Role – The VM role is used by a user to schedule tasks and other windows services. This role can be used to customize the machines on which the web and worker role is running.
+9. A _________ role is a virtual machine instance running Microsoft IIS Web server that can accept and respond to HTTP or HTTPS requests.
+Web
+Server
+Worker
+Client
+Answer: A. Web 
+
+Explanation: The answer should be Web Roles, there are no roles such as Server or Client roles. Also, Worker roles can only communicate with Azure Storage or through direct connections to clients.
+
+Apart from this Azure Interview Questions Blog, if you want to get trained from professionals on this technology, you can opt for a structured training from edureka! Click below to know more.
+
+Become An Azure Certified Professional!
+
+10. Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment?
+Explanation: This is not supported. You cannot use Azure Resource Manager to deploy a virtual machine into a virtual network that was created using classic deployment.
+
+11. What are virtual machine scale sets in Azure?
+Explanation: Virtual machine scale sets are Azure compute resource that you can use to deploy and manage a set of identical VMs. With all the VMs configured the same, scale sets are designed to support true autoscale, and no pre-provisioning of VMs is required. So it’s easier to build large-scale services that target big compute, big data, and containerized workloads.
+
+12. Are data disks supported within scale sets?
+Explanation: Yes. A scale set can define an attached data disk configuration that applies to all VMs in the set. Other options for storing data include:
+
+Azure files (SMB shared drives)
+OS drive
+Temp drive (local, not backed by Azure Storage)
+Azure data service (for example, Azure tables, Azure blobs)
+External data service (for example, remote database)
+
+13. What is an Availability Set?
+Explanation: An availability set is a logical grouping of VMs that allows Azure to understand how your application is built to provide redundancy and availability. 
+It is recommended that two or more VMs are created within an availability set to provide for a highly available application and to meet the 99.95% Azure SLA. 
+When a single VM is used with Azure Premium Storage, the Azure SLA applies for unplanned maintenance events.
+
+Apart from this Azure Interview Questions Blog, if you want to get trained from professionals on this technology, you can opt for a structured training from edureka! Click below to know more.
+
+Learn Azure From Experts!
+
+14. What are Fault Domains?
+Explanation: A fault domain is a logical group of underlying hardware that share a common power source and network switch, similar to a rack within an on-premise data-centers. 
+As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these fault domains. This approach limits the impact of potential physical hardware failures, 
+network outages, or power interruptions.
+
+15. What are Update Domains?
+Explanation: An update domain is a logical group of underlying hardware that can undergo maintenance or can be rebooted at the same time. 
+As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these update domains. 
+This approach ensures that at least one instance of your application always remains running as the Azure platform undergoes periodic maintenance. 
+The order of update domains being rebooted may not proceed sequentially during planned maintenance, but only one update domain is rebooted at a time.
+
+
+17. Do scale sets work with Azure availability sets?
+Explanation: Yes. A scale set is an implicit availability set with 5 fault domains and 5 update domains. 
+Scale sets of more than 100 VMs span multiple placement groups, 
+which are equivalent to multiple availability sets. 
+An availability set of VMs can exist in the same virtual network as a scale set of VMs. 
+A common configuration is to put control node VMs (which often require unique configuration) in an availability set and put data nodes in the scale set.
+
+18. What is a break-fix issue?
+Explanation: Technical problems are called break-fix issue, it is an industry term which refers to “work involved in supporting a technology when it fails in the normal course of its function,
+ which requires intervention by a support organization to be restored to working order”.
+
+23. What is Azure Service Fabric?
+Explanation: Azure Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable micro-services. 
+Service Fabric also addresses the significant challenges in developing and managing cloud applications. 
+Developers and administrators can avoid complex infrastructure problems and focus on implementing mission-critical, demanding workloads that are scalable, reliable, and manageable. 
+Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, tier-1, cloud-scale applications.
+
