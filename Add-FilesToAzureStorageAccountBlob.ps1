@@ -7,6 +7,7 @@ $Subscription = Get-AzureRmSubscription -SubscriptionID $SubscriptionID | Select
 Select-AzureRmSubscription -SubscriptionID $SubscriptionID | Set-AzureRmContext
 #Install-Module Azurerm.ServiceBus
 Get-AzurermContext
+
 $resourceGroupName = "test1"
 $location="centralus"
 #Add-AzureAccount 
@@ -103,3 +104,5 @@ Function Add-FilesToAzureStorageAccountBlob {
     
 
 #############################################################################################################################################################
+
+Get-AzureStorageContainer -Name "templates" | Get-AzureStorageBlob -IncludeDeleted -Context $storage_Context
