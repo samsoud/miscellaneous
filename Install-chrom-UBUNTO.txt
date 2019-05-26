@@ -1,0 +1,71 @@
+sh config_storage.sh <sud ID> <storage account> <rg> <source container name> <dest container name> 
+
+device login url from at.ms
+
+
+# install Browser
+UBUNTU
+
+Install chromium-browser
+sudo apt install chromium-browser
+sudo apt install google-chrome
+
+whereis chromium-browser
+
+
+Choose specifi default Browser
+x-www-browser http://some-url.org
+
+gnome-open http://askubuntu.com
+x-www-browser http://google.com
+/etc/chromium-browser 
+
+ sudo dpkg –i google-chrome-stable_current_amd64.deb
+ sudo dpkg –i google-chrome-stable_current_amd64.deb
+ 
+ ##################################################
+  
+  Install Headless chrome on Ubuntu (No Gui)
+  sudo apt-get update
+  sudo apt-get upgrade
+  sudo apt-get -u dist-upgrade
+  sudo apt-get install -y libappindicator1 fonts-liberation
+  sudo apt-get -y install dbus-x11 xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable
+  or sudo apt-get install -y libappindicator1 fonts-liberation
+  sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  # Test if it works:
+  google-chrome-stable --headless --disable-gpu --dump-dom https://www.chromestatus.com/
+  google-chrome-stable -version
+  
+  https://blog.softhints.com/ubuntu-16-04-server-install-headless-google-chrome/
+
+   ##################################################
+  
+
+  
+google-chrome
+or
+
+chromium-browse
+it's a remote box... At least via ssh you must use -X when option connecting to be able to run windowed apps. Like this:
+ ##################################################
+ 
+ 
+ssh -X username@server.lt
+
+# if you have a problem run: 
+ sudo apt-get -f install
+   sudo dpkg --configure -a
+   sudo apt-get -u dist-upgrade
+   sudo google-chrome-stable --headless -disable-gpu --screenshot https://www.chromestatus.com/
+   
+   npm install && npm rebuild && npm test
+   npm i -D karma-chrome-launcher
+   karma start --browsers Chrome,Chrome_without_security
+  sudo npm i -D puppeteer karma-chrome-launcher
+  sudo apt install nodejs npm
+  
+  npm i -D puppeteer karma-chrome-launcher
+
+ 
